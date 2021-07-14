@@ -1,0 +1,75 @@
+body{
+    font-family: 'Encode Sans SC', sans-serif;
+}
+.container{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 35px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.span{
+    color: #07a1d4;
+}
+.container img{
+    width: 100%;
+}
+.build{
+    color: #9826da;
+}
+.btn{
+    border: none;
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.btn:hover{
+    background-color: #0985fa;
+    transition: 0.3s;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience{
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.developer{
+   
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 40px #747272;
+    border-radius: 10px;
+}
+.web{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#ex-po-left{
+    border-left: 5px solid;
+    border-image: linear-gradient(orange, blue);
+    border-image-slice: 1;
+}
+#ex-po-right{
+    border-left: 5px solid;
+    border-image: linear-gradient(#207ce4, #07dfa9);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
